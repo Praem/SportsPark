@@ -55,3 +55,25 @@ p {
 
 
 /*MIKKEL UNDER HER*/
+.button {
+		background-color: #e5732b;
+		height: 9.375em;
+		border: 0;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-align-items: center;
+						align-items: center;
+		-webkit-justify-content: center;
+						justify-content: center;
+}
+
+.button h2 {
+font-size: 5em;
+font-style: normal;
+display: inline-block;
+}
+
+#map {
+	width: 400px;
+	height: 400px;
+}
