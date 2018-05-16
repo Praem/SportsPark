@@ -17,29 +17,10 @@ h1 {
 	font-family: neuropol x;
 }
 
-h2 {
+h2, h3, h4, h5, h6, p {
 	font-family: Open Sans;
 }
 
-h3 {
-	font-family: Open Sans;
-}
-
-h4 {
-	font-family: Open Sans;
-}
-
-h5 {
-	font-family: Open Sans;
-}
-
-h6 {
-	font-family: Open Sans;
-}
-
-p {
-	font-family: Open Sans;
-}
 
 .container-1 {
 	display: flex;
