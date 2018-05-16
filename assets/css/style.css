@@ -51,10 +51,18 @@ p {
 
 
 /*JOHNY UNDER HER*/
-#img1 {
+#testimonials-img1 #testimonials-img2 #testimonials-img3 #testimonials-img4 {
 	height: 25em;
 	width: auto;
 }
 
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
 
 /*MIKKEL UNDER HER*/
