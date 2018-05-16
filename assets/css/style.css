@@ -52,10 +52,9 @@ p {
 
 /*JOHNY UNDER HER*/
 #testimonials-img1, #testimonials-img2, #testimonials-img3, #testimonials-img4 {
-	height: 25em;
-	width: auto;
+	height: auto;
+	width: fill;
 }
-
 
 .show {
 	display: block;
@@ -63,6 +62,22 @@ p {
 
 .hide {
 	display: none;
+}
+
+.container-1 {
+	display: flex;
+}
+
+.item-1-3 {
+	flex: 1;
+}
+
+.item-2-3 {
+	flex: 2;
+}
+
+.item-3-3 {
+	flex: 1;
 }
 
 /*MIKKEL UNDER HER*/
