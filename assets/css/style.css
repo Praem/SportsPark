@@ -7,9 +7,40 @@
 /* FONT FAMILY AND EXECUTION*/
 
 @font-face {
-  font-family: neuropol x, Open Sans; 
+  font-family: neuropol x, Open Sans;
   src: url(../assets/fonts/neuropol x.ttf);
 }
+
+/*STANDARD TING*/
+
+h1 {
+	font-family: neuropol x;
+}
+
+h2 {
+	font-family: Open Sans;
+}
+
+h3 {
+	font-family: Open Sans;
+}
+
+h4 {
+	font-family: Open Sans;
+}
+
+h5 {
+	font-family: Open Sans;
+}
+
+h6 {
+	font-family: Open Sans;
+}
+
+p {
+	font-family: Open Sans;
+}
+
 
 /*NICOLINE UNDER HER*/
 
