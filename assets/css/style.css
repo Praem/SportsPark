@@ -19,6 +19,7 @@ h1 {
 
 h2 {
 	font-family: Open Sans;
+	color: #fff;
 }
 
 h3 {
@@ -39,6 +40,8 @@ h6 {
 
 p {
 	font-family: Open Sans;
+	color: #fff;
+	font-size: 1.875em;
 }
 
 
@@ -84,7 +87,36 @@ font-style: normal;
 display: inline-block;
 }
 
-#map {
-	width: 400px;
-	height: 400px;
+.container {
+	display: flex;
+
+	align-items: center;
+}
+
+.form {
+	flex: 1;
+	background-color: #333;
+	height: 482px;
+
+
+}
+
+.form p {
+	padding-top: 3.6em;
+	text-align: left;
+  padding-left: 4em;
+
+
+
+}
+
+.map {
+	flex: 2;
+}
+
+.map img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
