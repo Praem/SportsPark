@@ -48,17 +48,33 @@ h2, h3, h4, h5, h6, p {
 
 
 /*JOHNY UNDER HER*/
-#testimonials-img1, #testimonials-img2, #testimonials-img3, #testimonials-img4 {
-	height: auto;
-	width: fill;
-}
-
 .show {
 	display: block;
 }
 
 .hide {
 	display: none;
+}
+
+#testimonials-img1, #testimonials-img2, #testimonials-img3, #testimonials-img4 {
+	max-width: 100%;
+	width: -webkit-fill-available;
+	max-height: 540px;
+	height: -webkit-fill-available;
+}
+
+.testimonials-button {
+	background-color: #333333;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 25%;
+	outline: none;
+	font-size: 1.5em;
+}
+
+.testimonials-button:hover {
+	background-color: #e5732b;
 }
 
 /*MIKKEL UNDER HER*/
