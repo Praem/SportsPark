@@ -66,6 +66,7 @@ video {
 }
 
 .stretch {
+
   height: 2000px;
   background: black;
   min-height: 100%;
@@ -110,12 +111,12 @@ img {vertical-align: middle;
   animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 /* Next & previous buttons */
@@ -152,7 +153,7 @@ img {vertical-align: middle;
   text-align: left;
   font-size: 1vw;
 }
-	  
+
 
 .flex-container > div {
   position: sticky;
