@@ -114,9 +114,11 @@ display: inline-block;
 }
 
 .form p {
-	padding-top: 3.6em;
 	text-align: left;
+	padding-top: 3.6em;
   padding-left: 4em;
+	padding-right: 3.8em;
+	font-size: 2vw;
 
 
 
