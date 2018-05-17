@@ -143,7 +143,7 @@ display: inline-block;
 
 .container {
 	display: flex;
-
+  background-color: #fff;
 	align-items: center;
 }
 
@@ -161,13 +161,11 @@ display: inline-block;
   padding-left: 4em;
 	padding-right: 3.8em;
 	font-size: 2vw;
-
-
-
 }
 
 .map {
 	flex: 2;
+
 }
 
 .map img {
