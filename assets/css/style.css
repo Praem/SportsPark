@@ -17,10 +17,17 @@ h1 {
 	font-family: neuropol x;
 }
 
-h2, h3, h4, h5, h6, p {
+h2 {
+	font-size: 3em;
+	font-family: Open Sans;
+	line-height: 1.5em;
+}
+
+ h3, h4, h5, h6, p {
 	font-family: Open Sans;
 	color: #fff;
 }
+
 
 
 .container-1 {
@@ -38,7 +45,9 @@ h2, h3, h4, h5, h6, p {
 p {
 	font-family: Open Sans;
 	color: #fff;
-	font-size: 1.875em;
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 1.5em;
 }
 
 
@@ -49,6 +58,7 @@ header {
   width: 100%;
   height: 64px;
   background-color: white;
+	z-index: 2;
 }
 
 .logo {
@@ -67,8 +77,6 @@ video {
 
 .stretch {
 
-  height: 2000px;
-  background: black;
   min-height: 100%;
   min-width: 100%;
   background-size: cover;
@@ -84,7 +92,7 @@ video {
   width: auto;
   min-height: 100%;
   min-width: 100%;
-  z-index: -9999;
+  z-index: -1;
 }
 
 
@@ -103,7 +111,7 @@ img {vertical-align: middle;
   margin: auto;
 }
 
-/* Fading animation */
+/* Fading animation*/
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -123,7 +131,7 @@ img {vertical-align: middle;
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 22vw;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -146,21 +154,24 @@ img {vertical-align: middle;
 /*info text */
 .text {
   color: #fff;
-  padding: 25px 85px;
+	padding: 25px 85px;
   padding-right: 900px;
-  position: fixed;
+  position: absolute;
   top: 8px;
   text-align: left;
-  font-size: 1vw;
 }
 
+.flex-container {
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
 
 .flex-container > div {
-  position: sticky;
   padding-top: 30px;
   margin-bottom: 0px;
   background-color: #ee7326;
-  height: 190px;
+  height: 125px;
   width: 100%;
   text-align: center;
   color: #fff;
@@ -203,19 +214,17 @@ img {vertical-align: middle;
 
 /*MIKKEL UNDER HER*/
 .button {
-		background-color: #e5732b;
+		background-color: #ee7326;
 		height: 9.375em;
 		border: 0;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-align-items: center;
-						align-items: center;
-		-webkit-justify-content: center;
-						justify-content: center;
+		  align-items: center;
+			justify-content: center;
 }
 
 .button h2 {
 font-size: 5em;
+color: #fff;
 font-style: normal;
 display: inline-block;
 }
@@ -235,7 +244,6 @@ display: inline-block;
 }
 
 .form p {
-	text-align: left;
 	padding-top: 3.6em;
   padding-left: 4em;
 	padding-right: 3.8em;
