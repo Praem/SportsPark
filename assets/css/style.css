@@ -222,11 +222,13 @@ img {vertical-align: middle;
 			justify-content: center;
 }
 
-.button h2 {
+.button a {
 font-size: 5em;
 color: #fff;
+font-family: Open Sans;
 font-style: normal;
 display: inline-block;
+text-decoration: none;
 }
 
 .container {
@@ -244,7 +246,7 @@ display: inline-block;
 }
 
 .form p {
-	padding-top: 3.6em;
+	padding-top: 2.8em;
   padding-left: 4em;
 	padding-right: 3.8em;
 	font-size: 2vw;
