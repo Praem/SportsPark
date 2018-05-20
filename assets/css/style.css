@@ -7,24 +7,24 @@
 /* FONT FAMILY AND EXECUTION*/
 
 @font-face {
-  font-family: neuropol x, Open Sans;
-  src: url(../assets/fonts/neuropol x.ttf);
+  font-family: "neuropol x", "Open Sans";
+  src: url(../assets/fonts/"neuropol x".ttf);
 }
 
 /*STANDARD TING*/
 
 h1 {
-	font-family: neuropol x;
+	font-family: "neuropol x";
 }
 
 h2 {
 	font-size: 3em;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	line-height: 1.5em;
 }
 
  h3, h4, h5, h6, p {
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	color: #fff;
 }
 
@@ -43,7 +43,7 @@ h2 {
 }
 
 p {
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	color: #fff;
 	text-align: left;
 	font-size: 1.5em;
@@ -225,7 +225,7 @@ img {vertical-align: middle;
 .button a {
 font-size: 5em;
 color: #fff;
-font-family: Open Sans;
+font-family: "Open Sans";
 font-style: normal;
 display: inline-block;
 text-decoration: none;
