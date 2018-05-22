@@ -65,11 +65,6 @@ header {
   text-align: center;
 }
 
-figure {
-  margin: 0;
-  position: relative;
-}
-
 video {
   width: 100%;
   max-width: 100%;
