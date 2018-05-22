@@ -101,3 +101,9 @@ body {
 	height: 2em;
 	text-align: center;
 }
+
+.logo img {
+  text-align: center;
+  height: 60px;
+  weight: 300px;
+}
