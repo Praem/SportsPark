@@ -149,7 +149,7 @@ img {vertical-align: middle;
 /*info text */
 .text {
   color: #fff;
-	padding: 25px 60px;
+	padding: 1em 2.4em;
   padding-right: 1000px;
   position: absolute;
   top: 8px;
@@ -158,7 +158,7 @@ img {vertical-align: middle;
 
 .text p {
 	font-size: 1.2em;
-	line-height: 1.5wem;
+	line-height: 1.8em;
 }
 
 .flex-container {
