@@ -154,11 +154,16 @@ img {vertical-align: middle;
 /*info text */
 .text {
   color: #fff;
-	padding: 25px 85px;
-  padding-right: 900px;
+	padding: 25px 60px;
+  padding-right: 1000px;
   position: absolute;
   top: 8px;
   text-align: left;
+}
+
+.text p {
+	font-size: 1.2em;
+	line-height: 1.5wem;
 }
 
 .flex-container {
