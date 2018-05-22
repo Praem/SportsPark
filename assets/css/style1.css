@@ -41,15 +41,38 @@ header {
 }
 
 body {
-    background-image: url(../../assets/img/esport-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+	
 }
+
+.wrapper {
+	background-size: cover;
+}
+
+.wrapper img {
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
 
 .container-1 {
 	background-color: white;
     width: 35%;
     padding: 2.5em;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 2.5em;
+		opacity: .5;
+
+}
+
+.container-2 {
+	background-color: #333;
+    width: 75%;
+		display: block;
+		padding: 2.5em;
     border-radius: 25px;
     margin: auto;
     margin-top: 2.5em;
@@ -80,7 +103,7 @@ body {
 }
 
 /* Customize the label (the container) */
-.container {
+.container-cb {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -91,7 +114,7 @@ body {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.container-cb input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -108,12 +131,12 @@ body {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.container-cb:hover input ~ .checkmark {
   background-color: #e5732b;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
+.container-cb input:checked ~ .checkmark {
   background-color: #e5732b;
 }
 
@@ -125,12 +148,12 @@ body {
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.container-cb input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.container-cb .checkmark:after {
   left: 9px;
   top: 5px;
   width: 5px;
