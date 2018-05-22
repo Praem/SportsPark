@@ -149,7 +149,7 @@ img {vertical-align: middle;
 /*info text */
 .text {
   color: #fff;
-	padding: 25px 65px;
+	padding: 135px 65px;
   padding-right: 1000px;
   position: absolute;
   top: 8px;
@@ -159,12 +159,30 @@ img {vertical-align: middle;
 .text p {
 	font-size: 1.2em;
 	line-height: 1.8em;
+	text-align: left;
+}
+
+/*info text */
+.text2 {
+  color: #fff;
+	padding: 60px 65px;
+  padding-right: 1000px;
+  position: absolute;
+  top: 8px;
+  text-align: left;
+}
+
+.text2 p {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	text-align: left;
 }
 
 .flex-container {
 	position: sticky;
 	top: 0;
 	z-index: 3;
+
 }
 
 .flex-container > div {
@@ -179,7 +197,15 @@ img {vertical-align: middle;
   margin: auto;
 }
 
+.flex-container p {
+	font-size: 0.5em;
+	text-align: center;
+}
 
+.flex-container h3 {
+	text-align: center;
+	margin-top: -30px;
+}
 
 
 /*JOHNY UNDER HER*/
@@ -229,6 +255,7 @@ font-family: "Open Sans";
 font-style: normal;
 display: inline-block;
 text-decoration: none;
+font-weight: bold;
 }
 
 .container {
