@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2.2em;
 	font-family: "Open Sans";
 	line-height: 1.5em;
 }
@@ -149,7 +149,7 @@ img {vertical-align: middle;
 /*info text */
 .text {
   color: #fff;
-	padding: 1em 2.4em;
+	padding: 25px 65px;
   padding-right: 1000px;
   position: absolute;
   top: 8px;
