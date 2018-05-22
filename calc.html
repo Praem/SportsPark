@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="--------" />
+		<link rel="icon" href="assets/img/SPB_logo.png" type="image/gif" sizes="32x32">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/style1.css"/>
+		<title>SportsPark Blaavandshuk send forespørgsel</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/img/logo.jpg" alt="sportspark logo">
+			</div>
+		</header>
+		
+		<!--Flex container starter her-->
+		<div class="container-1">
+			<!-- Form starter her -->
+			<form id="order_form">
+				<div class="item-3-3">
+					<p>Kontakt person*</p>
+					<input type="text" name="contact_name" id="contact_name" class="contact_form" required />
+				</div>
+				<div class="item-3-3">				
+					<p>Adresse*</p>
+					<input type="text" name="contact_address" id="contact_address" class="contact_form" required />
+				</div>
+				<div class="item-3-3">
+					<p>Post nr. og by*</p>
+					<input type="text" name="contact_zipandcity" id="contact_zipandcity" class="contact_form" required />
+				</div>
+				<div class="item-3-3">
+					<p>Mobil nr.*</p>
+					<input type="number" name="contact_number" id="contact_number" class="contact_form" required />
+				</div>
+				<div class="item-3-3">
+					<p>E-mail*</p>
+					<input type="text" name="contact_mail" id="contact_mail" class="contact_form" required />
+				</div>
+				<div class="item-3-3">
+					<p>Vælg dato på ankomst og afrejse*</p>
+				</div>
+				<div class="item-3-3">
+					<p>Fra</p>
+					<input id="date-start" type="date" required />
+					<p>Til</p>
+					<input id="date-finish" type="date" required />
+				</div>
+					<label for="order_qty" name="qty">Vælg antal af computer som skal udlejes*</label><br>
+					<select name="order_qty" id="order_qty" onchange="valueUpdate(this.value)">
+						<option value="select">Vælg antal</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>Vælg antal hytter*<br>4-mands hytter</p>
+					<select name="order_qty" id="" required>
+						<option value="select">Vælg antal</option>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</td>
+				<td>
+					<p>8-mands hytter</p>
+					<select name="order_qty" id="" required>
+						<option value="select">Vælg antal</option>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="3">4</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="qty_display"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="submit_container">
+						<div class="fake_submit_button">Bestil</div> <!-- Gets replaced with real button once a quantity is chosen -->
+					</div>
+				</td>
+			</tr>
+			</form>
+			<!-- Form slutter her-->
+		</div>
+		<!-- Flex container slutter her -->
+		<script src="test.js"></script>
+	</body>
+</html>

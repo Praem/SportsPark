@@ -1,0 +1,80 @@
+/* NEUTROLIZE EVERYTHING*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* FONT FAMILY AND EXECUTION*/
+
+@font-face {
+  font-family: "neuropol x", "Open Sans";
+  src: url(../assets/fonts/"neuropol x".ttf);
+}
+
+/*STANDARD TING*/
+
+h1 {
+	font-family: "neuropol x";
+}
+
+h2 {
+	font-size: 3em;
+	font-family: "Open Sans";
+	line-height: 1.5em;
+}
+
+ h3, h4, h5, h6, p {
+	font-family: "Open Sans";
+	color: #000;
+}
+
+header {
+	max-width: 1920px;
+	width: 100%;
+	height: 64px;
+	background-color: white;
+}
+
+.logo img {
+  height: -webkit-fill-available;
+  width: auto;
+}
+
+body {
+    background-image: url(../../assets/img/esport-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container-1 {
+	background-color: white;
+    width: 35%;
+    padding: 2.5em;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 2.5em;
+}
+
+.item-1-3 {
+	flex: 1;
+}
+
+.item-2-3 {
+	flex: 2;
+}
+
+.item-3-3 {
+	flex: 3;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+#order_form {
+	margin: auto;
+}
+
+.contact_form{
+	width: 100%;
+	height: 2em;
+	text-align: center;
+}
