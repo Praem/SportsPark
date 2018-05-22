@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2.2em;
 	font-family: "Open Sans";
 	line-height: 1.5em;
 }
@@ -63,11 +63,6 @@ header {
 
 .logo {
   text-align: center;
-}
-
-figure {
-  margin: 0;
-  position: relative;
 }
 
 video {
@@ -154,11 +149,16 @@ img {vertical-align: middle;
 /*info text */
 .text {
   color: #fff;
-	padding: 25px 85px;
-  padding-right: 900px;
+	padding: 25px 65px;
+  padding-right: 1000px;
   position: absolute;
   top: 8px;
   text-align: left;
+}
+
+.text p {
+	font-size: 1.2em;
+	line-height: 1.8em;
 }
 
 .flex-container {
