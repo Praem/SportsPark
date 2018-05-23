@@ -238,6 +238,10 @@ img {vertical-align: middle;
 	background-color: #e5732b;
 }
 
+.testimonials-button:focus {
+	background-color: #e5732b;
+}
+
 /*MIKKEL UNDER HER*/
 .button {
 		background-color: #ee7326;
