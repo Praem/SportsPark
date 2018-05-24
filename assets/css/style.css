@@ -18,9 +18,9 @@ h1 {
 }
 
 h2 {
-	font-size: 2.2em;
-	font-family: "Open Sans";
-	line-height: 1.5em;
+	font-size: 2.2vw;
+  font-family: "Open Sans";
+  line-height: 1.5em;
 }
 
  h3, h4, h5, h6, p {
@@ -133,12 +133,14 @@ img {vertical-align: middle;
 
 /*info text */
 .text {
-  color: #fff;
-	padding: 135px 65px;
-  padding-right: 1000px;
+	color: #fff;
   position: absolute;
   top: 8px;
   text-align: left;
+  max-width: 20vw;
+  width: auto;
+  height: auto;
+  margin: 100px;
 }
 
 .text p {
@@ -158,9 +160,10 @@ img {vertical-align: middle;
 }
 
 .text2 p {
-	font-size: 1.2em;
-	line-height: 1.8em;
-	text-align: left;
+	font-size: 1.2vw;
+  line-height: 1.8em;
+  text-align: left;
+  width: 25vw;
 }
 
 .flex-container {
