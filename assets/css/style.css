@@ -51,7 +51,7 @@ p {
 }
 
 
-/*NICOLINE UNDER HER*/
+
 header {
   position: fixed;
   top: 0;
@@ -92,7 +92,7 @@ video {
 
 
 
-/*CECILIE UNDER HER*/
+
 
 * {box-sizing: border-box}
 .mySlides {display: none}
@@ -196,7 +196,6 @@ img {vertical-align: middle;
 }
 
 
-/*JOHNY UNDER HER*/
 .show {
 	display: block;
 }
@@ -230,7 +229,6 @@ img {vertical-align: middle;
 	background-color: #e5732b;
 }
 
-/*MIKKEL UNDER HER*/
 .button {
 		background-color: #ee7326;
 		height: 9.375em;
