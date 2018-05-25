@@ -23,9 +23,9 @@ h2 {
 	line-height: 1.5em;
 }
 
- h3, h4, h5, h6, p {
+ h3, h4, h5, h6, p, strong, em {
 	font-family: "Open Sans";
-	color: #000;
+	color: #fff;
 }
 
 body {
