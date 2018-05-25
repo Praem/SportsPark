@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2.2vw;
 	font-family: "Open Sans";
 	line-height: 1.5em;
 }
@@ -133,4 +133,32 @@ button {
     font-size: 2vw;
     width: 90%;
     margin: 2vw auto 0.5vw;
+}
+
+.box-add {
+	width: 28vw;
+    height: 28vw;
+    background-color: #e5732b;
+    border-radius: 450px;
+    display: block;
+    z-index: 100000000000000;
+    position: absolute;
+    top: 5em;
+    right: 5em;
+}
+
+.box-add h2 {
+	padding-top: 25%;
+    padding-left: 7%;
+    font-size: 2.6vw;
+    color: #fff;
+}
+
+.box-add p {
+	text-align: center;
+}
+
+.box-add em {
+	text-align: center;
+    font-size: 0.7vw;
 }
