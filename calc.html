@@ -15,37 +15,29 @@
 				<img src="assets/img/logo.jpg" alt="sportspark logo">
 			</div>
 		</header>
-
-		<!--Flex container starter her-->
-		<div class="wrapper">
-		<div class="container-1">
-			<div class="container-2">
-			<!-- Form starter her -->
-			<form id="order_form">
-				<div class="item-3-3">
-					<p>Kontakt person*</p>
-					<input type="text" name="contact_name" id="contact_name" class="contact_form" required />
+		<!-- Form starter her -->
+		<form id="order_form">
+				<p>Kontakt person*</p>
+				<input type="text" name="contact_name" id="contact_name" required />
+				<p>Mobil nr.*</p>
+				<input type="number" name="contact_number" id="contact_number"  required />
+				<p>E-mail*</p>
+				<input type="text" name="contact_mail" id="contact_mail"  required />
+				<div class="row-container2">
+				<p style="margin-bottom: -1vw; class="more-space">Vælg dato på ankomst og afrejse*</p>
+					<p class="text-left">Fra</p>
+					<p class="text-right">Til</p>
 				</div>
-
-				<div class="item-3-3">
-					<p>Mobil nr.*</p>
-					<input type="number" name="contact_number" id="contact_number" class="contact_form" required />
-				</div>
-				<div class="item-3-3">
-					<p>E-mail*</p>
-					<input type="text" name="contact_mail" id="contact_mail" class="contact_form" required />
-				</div>
-				<div class="item-3-3">
-					<p>Vælg dato på ankomst og afrejse*</p>
-				</div>
-				<div class="item-3-3">
-					<p>Fra</p>
+				<div class="row-container">
 					<input id="date-start" type="date" required />
-					<p>Til</p>
 					<input id="date-finish" type="date" required />
 				</div>
-					<label for="order_qty" name="qty">Vælg antal af computer som skal udlejes*</label><br>
-					<select name="order_qty" id="order_qty" onchange="valueUpdate(this.value)">
+				<div class="row-container2">
+					<p class="text-left">Udlejning af computere*</p>
+					<p class="text-right">Coach</p>
+				</div>
+				<div class="row-container">
+					<select name="order_qty" id="order_qty" onchange="">
 						<option value="select">Vælg antal</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -60,15 +52,14 @@
 						<option value="11">11</option>
 						<option value="12">12</option>
 					</select>
-					<label class="container-cb">Coach
-  <input type="checkbox" checked="checked">
-  <span class="checkmark"></span>
-</label>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<p>Vælg antal hytter*<br>4-mands hytter</p>
+					<input id="checkbox" type="checkbox" />
+				</div>
+				<div class="row-container2">
+					<p style="margin-bottom: -1vw;">Vælg antal hytter*</p>
+					<p class="text-left">4-mands hytter</p>
+					<p class="text-right">8-mands hytter</p>
+				</div>
+				<div class="row-container">
 					<select name="order_qty" id="" required>
 						<option value="select">Vælg antal</option>
 						<option value="0">0</option>
@@ -76,9 +67,6 @@
 						<option value="2">2</option>
 						<option value="3">3</option>
 					</select>
-				</td>
-				<td>
-					<p>8-mands hytter</p>
 					<select name="order_qty" id="" required>
 						<option value="select">Vælg antal</option>
 						<option value="0">0</option>
@@ -87,26 +75,12 @@
 						<option value="3">3</option>
 						<option value="3">4</option>
 					</select>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<div id="qty_display"></div>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<div id="submit_container">
-						<div class="fake_submit_button">Bestil</div> <!-- Gets replaced with real button once a quantity is chosen -->
-					</div>
-				</td>
-			</tr>
-			</form>
-			<!-- Form slutter her-->
-		</div>
-		</div>
-		<!-- Flex container slutter her -->
-		</div>
-		<script src="test.js"></script>
+				</div>
+				<div id="qty_display"></div>
+				<button>SEND FORESPØRGSEL</button><br>
+				<strong><em>*Skal udfyldes!</em></strong><br>
+				<em>Pakken er inkl. fri adgang til køkken, badeland & fitnesscenter<br>24 timer i døgnet.</em>
+		</form>
+		<!-- Form slutter her-->
 	</body>
 </html>
