@@ -28,11 +28,16 @@ h2 {
 	color: #000;
 }
 
+body {
+	background-image: url(../../assets/img/esport_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 header {
 	max-width: 1920px;
 	top: 0;
 	width: 100%;
-	height: 30px;
 	background-color: white;
 	text-align: center;
 }
@@ -49,7 +54,7 @@ header {
 	background-color: #333333;
     width: 30%;
     height: auto;
-    margin: auto;
+    margin: 5vw auto;
     padding: 3vw;
     display: flex;
     flex-direction: column;
